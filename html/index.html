@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+<meta charset ="UFT-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./css/formu2.css"></script>
+<head>
+    <title>Formulario html</title>
+    <meta http-equiv="content-type"
+content="text/html;charset=utf-8">
+<body style="background-color:#6e1c83;"></body>
+<style type="text/css">
+    
+    p{
+        font-family: courier;
+        font-size: 12px;
+        font-weight: bold;
+        font-style: italic;
+        color: #f5f5f5;
+        background-color: #b255c9;
+        border-style: solid;
+        border-color: #620579;
+        border-width: 2px;
+        margin: 14px;
+        padding: 20px;
+        border-radius: 14px;
+    }
+</style>
+</head>
+<body>
+    <div id="contendor">
+        <h1 id="encabezado">Formulario</h1>
+        <form name="mi formulario" action="URL" method="get">
+        <p style="font-style:italic;text-align:justify;font-size: 20px;"> Controles <br> <br/>
+            <input type="text" id="nombre" class="form-control" placeholder="Aqui ingrese el texto" /> <br/>
+            <textarea name="descripcion" rows="8" cols="30"></textarea> <br/>
+               <label for="password">
+                <input type="password" placeholder="Ingrese su contraseña" 
+                    id="password" name="password"/>
+            </p>
+        </form> 
+    </div>
+</body>
+<body>
+    <div id="contendor">
+        <form name="mi formulario" action="URL" method="get">
+        <p style="font-style:italic;text-align:justify;font-size: 20px;">Controles de selección <br> <br/> 
+                     <label style="font-size: 15px;">Su color favorito: <select>
+                         <option>...</option>
+                         <option>Azul</option>
+                         <option>Amarillo</option>
+                         <option>Naranja</option>
+                         <option>Morado</option>
+                        </select> 
+                     <label style="font-size: 15px;">Su color favorito: <select>
+                            <option>Azul</option>
+                            <option>Amarillo</option>
+                            <option>Naranja</option>
+                            <option>Morado</option>
+                        </select> 
+                     <label style="font-size: 15px;">Su color favorito:
+                               <select id="ms" multiple="multiple" color="form-control">
+                                  <option value="1">Azul</option>
+                                  <option value="2">Amarillo</option>
+                                  <option value="3">Naranja</option>
+                                  <option value="4">Morado</option>
+                            </select> <br><br/>
+
+                     <label style="font-size: 15px;">Lista de boton de radio:
+                                <input type="radio"/> Azul
+                                <input type="radio"/> Amarillo
+                                <input type="radio"/> Naranja
+                                <input type="radio"/> Morado <br><br/>
+
+                     <label style="font-size: 15px;">Lista de boton de chequeo:
+                                <input type="checkbox"/> Azul
+                                <input type="checkbox"/> Amarillo
+                                <input type="checkbox"/> Naranja
+                                <input type="checkbox"/> Morado <br><br/>
+            
+        </form> 
+    </div>
+</body>
+<body>
+    <div id="contendor">
+        <form name="mi formulario" action="URL" method="get">
+            <p style="font-style:italic;text-align:justify;font-size: 20px;">Botones <br> <br/> 
+                <input type="submit" value="Enviar ahora"/>
+                <button onclick="Reset()">Borrar el resultado</button>
+                <input type="button" value="Botón"/>
+</body>
+<body>
+    <div id="contendor">
+        <form name="mi formulario" action="URL" method="get">
+            <p style="font-style:italic;text-align:justify;font-size: 20px;">Otros componentes <br> <br/> 
+                <input type="file" value="seleccionar archivo"/>
+
+  
+
+</body>
+</html>
